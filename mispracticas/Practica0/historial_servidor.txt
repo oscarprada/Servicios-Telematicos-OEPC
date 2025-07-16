@@ -1,0 +1,242 @@
+    1  sudo apt update
+    2  sudo apt install net-tools vim -y
+    3  ping 192.168.50.2 -c 4
+    4  sudo apt update
+    5  sudo apt install git -y
+    6  git config --global user.name "oscarprada"
+    7  git config --global user.email "oscar.prada@uao.edu.co"
+    8  git config --list
+    9  cd vagrant
+   10  cd /vagrant
+   11  mkdir prueba-git
+   12  cd prueba-git
+   13  git init
+   14  echo "Este es un commit de prueba." > archivo.txt
+   15  git add archivo.txt
+   16  git commit -m 
+   17  git commit -m "primer commit de prueba"
+   18  cp ~/.bash_history /vagrant/historial_sevidor.txt
+   19  ip a
+   20  ifconfig
+   21  ip a
+   22  ping 192.168.50.2 -c 4
+   23  [200~ls /vagrant
+   24  ~ls /vagrant
+   25  ls /vagrant
+   26  [200~echo "Archivo creado desde Linux" > /vagrant/hola_desde_linux.txt
+   27  echo "archivo creado desde Linux" > /vagrant/hola_desde_Linux.txt
+   28  git
+   29  clear
+   30  mkdir Practica 1.1
+   31  cd Practica 1.1/
+   32  cd Practica 1.1
+   33  mkdir practica 1
+   34  cd practica 1
+   35  clear
+   36  mkdir Practica0
+   37  cd Practica0
+   38  git init
+   39  touch archivo
+   40  ls -la
+   41  git add archivo
+   42  git status
+   43  git commit -m "Practica 1.1"
+   44  git status
+   45  clear
+   46  cd vagrant
+   47  vagrant@servidor:~$ cd vagrant
+   48  -bash: cd: vagrant: No such file or directory
+   49  vagrant@servidor:~$
+   50  clear
+   51  cd /vagrant
+   52  git clone https://github.com/oscarprada/Servicios-Telematicos-OEPC.git
+   53  cd /vagrant
+   54  cd /vagrant/Servicios-Telematicos-OEPC
+   55  mkdir -p mispracticas/Practica0
+   56  echo "Primera práctica de servicios telemáticos." > mispracticas/Practica0/README.md
+   57  git add .
+   58  git commit -m "Agrego estructura de Practica0 con archivo de prueba"
+   59  git push origin main
+   60  git push
+   61  clear
+   62  cd /vagrant
+   63  ping 192.168.50.2 -c 4
+   64  ls /vagrant
+   65  echo "Archivo creado desde Linux" > /vagrant/hola_desde_linux.txt
+   66  ip a
+   67  sudo apt install bind9
+   68  sudo systemctl status
+   69  sudo apt install dnsutils
+   70  cd /etc/bind
+   71  clear
+   72  ls
+   73  vim named.conf
+   74  vim name.conf.local
+   75  vim named.conf.local
+   76  sudo vim named.conf.local
+   77  sudo vim db.servicios.com
+   78  ls
+   79  vim db.empty
+   80  vim db.local
+   81  sudo cp db.local.servicios.com
+   82  sudo cp db.local db.servicios.com
+   83  sudo vim db.servicios.com
+   84  sudo cp db.servicios.com db.192
+   85  sudo vim db.192
+   86  named-checkconf
+   87  named-checkzone servicios.com /etc/bind
+   88  named-checkzone servicios.com /etc/bind/db.servicios.com
+   89  named-checkzone 50.168.192.in-addr.arpa /etc/bind/db.192
+   90  named-checkconf
+   91  sudo systemctl restart bind9
+   92  sudo systemctl status bind9
+   93  host ns.servicios.com 192.168.50.3
+   94  host server.servicios.com 192.168.50.3
+   95  sudo service bind9 start
+   96  sudo service bind9 restart
+   97  host ns.servicios.com 192.168.50.3
+   98  sudo vim db.servicios.com
+   99  sudo systemctl restart bind9
+  100  host ns.servicios.com 192.168.50.3
+  101  sudo vim db.192
+  102  host ns.servicios.com 192.168.50.3
+  103  sudo vim named.conf.local
+  104  sudo systemctl restart bind9
+  105  host ns.servicios.com 192.168.50.3
+  106  host server.servicios.com 192.168.50.3
+  107  sudo cp -r /etc/bind.backup
+  108  ls /etc | grep bind
+  109  vagrant halt servidor}
+  110  exit
+  111  clear
+  112  sudo ufw disable
+  113  /etc/bind/named.conf.local
+  114  sudo /etc/bind/named.conf.local
+  115  sudo vim named.conf.local
+  116  clear
+  117  cd /etc/bind
+  118  clear
+  119  sudo vim named.conf.local
+  120  sudo vim db.servicios.com
+  121  sudo vim db.192
+  122  named-checkconf
+  123  named-checkzone servicios.com /etc/bind
+  124  named-checkzone servicios.com /etc/bind/db.servicios.com
+  125  named-checkzone 50.168.192.in-addr.arpa /etc/bind/db.192
+  126  sudo vim db.192
+  127  named-checkzone 50.168.192.in-addr.arpa /etc/bind/db.192
+  128  sudo systemctl restart bind9
+  129  sudo systemctl status bind9
+  130  host ns.servicios.com 192.168.50.3
+  131  host server.servicios.com 192.168.50.3
+  132  sudo ufw status
+  133  clear
+  134  exit
+  135  clear
+  136  cd ~/mispracticas
+  137  ls
+  138  clear
+  139  ping 192.168.50.2 -c 4
+  140  clear
+  141  sudo systemctl status bind9
+  142  [200~sudo cp /etc/bind/db.empty /etc/bind/db.prada
+  143  ~sudo cp /etc/bind/db.empty /etc/bind/db.prada
+  144  clear
+  145  sudo cp /etc/bind/db.empty /etc/bind/db.prada
+  146  sudo nano /etc/bind/db.prada
+  147  named-checkconf
+  148  named-checkzone prada.com /etc/bind/db.prada
+  149  sudo vim named.conf
+  150  sudo vim /etc/bind/named.conf.local
+  151  sudo vim named.conf.local
+  152  sudo vim /etc/bind/named.conf.local
+  153  sudo vim named.conf.local
+  154  sudo vim /etc/bind/named.conf.local
+  155  sudo vim named.conf.local
+  156  ls
+  157  cd /etc/bind
+  158  ls
+  159  sudo vim named.conf
+  160  sudo vim named.conf.local
+  161  sudo vim db.prada.com
+  162  sudo vim db.192
+  163  sudo vim /etc/bind/named.conf.local
+  164  sudo.vim db.192.prada
+  165  sudo vim db.192.prada
+  166  named-checkconf
+  167  named-checkconf prada.com /etc/bind
+  168  named-checkzone prada.com /etc/bind/db.prada
+  169  named-checkconf
+  170  named-checkzone prada.com /etc/bind/db.prada.com
+  171  named-checkzone 50.168.192.in-addr.arpa /etc/bind/db.192.prada
+  172  sudo systemctl restart bind9
+  173  sudo systemctl status bind9
+  174  host ns.prada.com 192.168.50.3
+  175  cat /etc/bind/db.prada
+  176  sudo tee /etc/bind/db.prada > /dev/null <<EOF
+  177  \$TTL 604800
+  178  @ IN SOA prada.com. root.prada.com. (
+  179  2         ; Serial
+  180  604800    ; Refresh
+  181  86400     ; Retry
+  182  2419200   ; Expire
+  183  604800 )  ; Negative Cache TTL
+  184  ;
+  185  @       IN NS     ns.prada.com.
+  186  ns      IN A      192.168.50.3
+  187  ftp     IN CNAME  ns
+  188  mail    IN CNAME  ns
+  189  web     IN CNAME  ftp.prada.com.
+  190  EOF
+  191  named-checkzone
+  192  named-chechzone prada.com /etc/bind/db.prada.com
+  193  named-chechzone prada.com /etc/bind/db.prada
+  194  named-checkzone prada.com /etc/bind/db.prada
+  195  sudo systemctl restart bind9
+  196  sudo systemctl status bind9
+  197  host ns.prada.com 192.168.50.3
+  198  host ns.servicios.com 192.168.50.3
+  199  host server.servicios.com 192.168.50.3
+  200  host ns.prada.com 192.168.50.3
+  201  clear
+  202  exit
+  203  clear
+  204  cd ~
+  205  ls
+  206  cd ~/Practica0
+  207  ls
+  208  git status
+  209  git fetch origin
+  210  git remote add origin https://github.com/oscarprada/Servicios-Telematicos-OEPC.git
+  211  git fetch origin
+  212  git checkout Practica1
+  213  sudo cp /etc/bind/db.prada ~/Practica0/
+  214  sudo cp /etc/bind/db.192.prada ~/Practica0/
+  215  sudo cp /etc/bind/named.conf.local ~/Practica0/
+  216  ls ~/Practica0
+  217  git add db.prada db.192.prada named.conf.local
+  218  git commit -m "Agrego archivos de configuración DNS y BIND para la práctica 1"
+  219  git push origin Practica1
+  220  git branch
+  221  git log --oneline
+  222  git config --global credential.helper store
+  223  git push origin Practica1
+  224  git push
+  225  cd ~
+  226  tar -czvf Practica1-backup.tar.gz Practica0
+  227  clear
+  228  ls
+  229  mv ~/Practica1-backup.tar.gz /vagrant/
+  230  ping 192.168.50.2
+  231  clear
+  232  vagrant halt servidor
+  233  vagrant halt
+  234  exit
+  235  clear
+  236  cd /vagrant/Servicios-Telematicos-OEPC
+  237  git checkout -b Practica0
+  238  mkdir -p mispracticas/Practica0
+  239  ls
+  240  echo "Configuración de la práctica 0 con Vagrant." > mispracticas/Practica0/README.md
+  241  cp /vagrant/Vagrantfile mispracticas/Practica0/
+  242  history > mispracticas/Practica0/historial_servidor.txt
