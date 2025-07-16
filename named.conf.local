@@ -1,0 +1,12 @@
+/*Zona hacia adelante*/
+zone "prada.com" {
+        type master;
+        file "/etc/bind/db.prada";
+};
+
+/*Zona inversa de prada.com*/
+zone "50.168.192.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.192.prada";
+};
+
